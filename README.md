@@ -1,0 +1,3 @@
+# Starbucks-clone
+
+Not responsive
