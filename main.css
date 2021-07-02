@@ -61,7 +61,6 @@
     margin-bottom: 24px;
     font-size: 24px;
     font-weight: 400;
-    letter-spacing: -0.1em;
 }
 
 .text h2 {
@@ -137,6 +136,7 @@
     height: 224.8px;
     margin-top: 0;
     background-color: #d4e9e2;
+    justify-content: flex-start;
 }
 
 .pick-up h1 {
@@ -147,4 +147,49 @@
 .pick-up h2 {
     line-height: 1.75;
     letter-spacing: -.01em;
+}
+
+.positive .text {
+    width: 50%;
+}
+
+.positive h2 {
+    max-width: 480px;
+    max-height: 98.4px;
+    line-height: 1.75;
+}
+
+.positive .text,
+.positive img {
+    background-color: #d4e9e2;
+    height: 400px;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.star p {
+    padding-top: 44.4PX;
+    padding-bottom: 44.4px;
+}
+
+.star-1 p {
+    padding-top: 11.1px;
+}
+
+.star-1 a {
+    color: #000;
+}
+
+.star-1 a:hover {
+    text-decoration: none;
+}
+
+.star-2 p {
+    max-width: 42.5%;
+    padding-bottom: 34px;
 }
