@@ -1,0 +1,110 @@
+.header {
+    width: 100%;
+    height: 100.8px;
+    margin: 0 auto;
+    padding: 24px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    position: relative;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.logo-container {
+    height: 49.36px;
+}
+
+.logo-container img {
+    height: 100%;
+}
+
+.left-nav,
+.right-nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.left-nav nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.left-nav nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    padding-left: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.left-nav nav ul li a:hover {
+    color: var(--primary-color);
+}
+
+.right-nav {
+    font-weight: 600;
+}
+
+.location {
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.location:hover {
+    color: var(--primary-color);
+}
+
+.location i {
+    padding-right: 8px;
+}
+
+.sign-in {
+    padding-right: 16px;
+}
+
+.sign-in button {
+    color: rgba(0,0,0,.87);
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.join-now button {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.sign-in button:hover {
+    background-color: rgba(0,0,0,.06);
+}
+
+.join-now button:hover {
+    background-color: rgba(0,0,0,.7);
+    border-color: rgba(0,0,0,.7);
+}

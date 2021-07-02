@@ -1,0 +1,150 @@
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.announcements {
+    display: flex;
+    justify-content: center;
+    background-color: #d8e8e3;
+}
+
+.announcements span {
+    padding: 2rem 0;
+    max-width: 52%;
+    color: #000;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.75;
+}
+
+.announcements a {
+    color: #000;
+}
+
+.announcements a:hover {
+    text-decoration: none;
+}
+
+.rewards {
+    margin-top: 32px;
+}
+
+.split {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.split .text,
+.split .image {
+    width: 50%;
+    height: 420px;
+}
+
+.image img {
+    height: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    background-color: #f1f8f6;
+    color: #1e3932;
+    text-align: center;
+}
+
+.text h1 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.1em;
+}
+
+.text h2 {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.text button {
+    margin-top: 32px;
+    font-size: 16px;
+    color: #1e3932;
+}
+
+/* Happy section */
+.happy, .chill {
+    height: 625px;
+}
+
+.happy .text,
+.chill .text {
+    height: 100%;
+}
+
+.happy .image img,
+.chill .image img {
+    height: 625px;
+}
+
+.happy .text,
+.chill .text {
+    background-color: #f2f0eb;
+}
+
+.happy .text h1,
+.chill .text h1 {
+    margin-bottom: 24px;
+    max-width: 80%;
+    letter-spacing: 8px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.happy .text h2,
+.chill .text h2 {
+    max-width: 70%;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.happy .text sup {
+    font-size: 9px;
+}
+
+.split-big {
+    max-height: 832.8px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.split-big .image img {
+    height: 600px;
+}
+
+.pick-up {
+    width: 704px;
+    background-color: #d4e9e2;
+}
+
+.pick-up .text {
+    height: 224.8px;
+    margin-top: 0;
+    background-color: #d4e9e2;
+}
+
+.pick-up h1 {
+    line-height: 1.5;
+    letter-spacing: -.01em;
+}
+
+.pick-up h2 {
+    line-height: 1.75;
+    letter-spacing: -.01em;
+}
